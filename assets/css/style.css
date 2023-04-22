@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 85vw;
+}
+
+.container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select {
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    height: 3vh;
+    margin-top: 0.5vh;
+}
+
+body {
+    background-color: rgb(212, 235, 255);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: white;
+    width: 50vw;
+    padding: 3vw;
+    border-radius: 10px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+.form-h1 {
+    margin-bottom: 2vh;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.form-h2 {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.form-button {
+    height: 5vh;
+    width: 7vw;
+    margin-top: 1vh;
+    color: white;
+    background-color: rgb(255, 137, 157);
+    border: none;
+    border-radius: 5px;
+    padding-inline: 1vw;
+    padding-block: 1vh;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.form-button:hover {
+    cursor: pointer;
+    background-color: rgb(227, 121, 139);
+}
+
+.user-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 12vw;
+    margin-bottom: 3vh;
+}
+
+.user-name {
+    font-weight: 500;
+}
+
+.select {
+    margin-bottom: 2vh;
+}
+
+
+/* Details */
+
+.details-main {
+    justify-content: flex-start;
+}
+
+.transactions-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5vw;
+    width: 15vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+    margin-right: 1vw;
+}
+
+.action-button {
+    height: 4vh;
+    width: 6vw;
+    margin-top: 1vh;
+    color: white;
+    background-color: rgb(255, 137, 157);
+    border: none;
+    border-radius: 5px;
+    padding-inline: 0.5vw;
+    padding-block: 0.5vh;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.action-button:hover {
+    cursor: pointer;
+    background-color: rgb(227, 121, 139);
+}
+
+.highlight {
+    font-weight: 500;
+}
